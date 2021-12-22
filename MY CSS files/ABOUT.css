@@ -1,0 +1,150 @@
+.all{
+    display: grid;
+    grid-template-rows: 1fr 5fr 3fr;
+    gap: 2px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.header{
+    grid: 1;
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    gap: 3px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.container1{
+    grid-row: 1;
+    display: flex;
+}
+.container1 a{
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+}
+.container1 div{
+    margin-left: 20px;
+}
+.navigation{
+    grid-row: 2;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+.navigation a{
+    display: block;
+    border: 1px solid black;
+    border-radius: 2em;
+    padding: 0.2em;
+    margin: 0.3em;
+    background-color: black;
+    text-decoration: none;
+    float: right;
+}
+.navigation a:hover{
+    background-color: red;
+}
+.navigation a:active{
+    background-color: red;
+}
+h1{
+    font-size: 2em;
+}
+body{
+    border: 1px solid white;
+    margin: 0;
+}
+.body{
+    grid: 2;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    gap: 2px;
+}
+#subheader{
+    grid-row: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30px;
+}
+#main{
+    grid-row: 2;
+}
+.par{
+    margin-left: 200px;
+}
+.image{
+    float: right;
+    margin-right: 400px;
+}
+
+
+.footer{
+    grid: 3;
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+    gap: 2px;
+    color: white;
+    background-color: black;
+}
+.intro{
+    grid-row: 1;
+    font-weight: bold;
+    font-size: 25px;
+}
+.contact{
+    grid-row: 2;
+    display: flex;
+}
+#box-1{
+    flex: 1;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 2px;
+}
+#box-11{
+    grid-row: 1;
+}
+#box-2{
+    flex: 1;
+    display: grid;
+    grid-template-rows:  1fr 2fr;
+    gap: 2px;
+}
+#box-21{
+    grid-row: 1;
+}
+#box-3{
+    flex: 1.5;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 2px;
+}
+#box-31{
+    grid-row: 1;
+}
+#box-32{
+    grid-row: 2;
+    display: flex;
+}
+#div1{
+    flex: 1;
+}
+#div2{
+    flex: 1;
+}
+a:link{
+    color: #9e9eff;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: cyan;
+}
+a:visited{
+    color: magenta;
+}
